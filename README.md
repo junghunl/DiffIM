@@ -1,5 +1,6 @@
 # DiffIM
 
+Code, datasets and online appendix of the paper [“DiffIM: Differentiable Influence Minimization with Surrogate Modeling and Continuous Relaxation”](https://arxiv.org/pdf/2502.01031)
 
 ## Requirements
 
@@ -99,5 +100,5 @@ pipeline(alg_name, dataset_name, del_edge_num, **alg_kwargs):
     - model_name
     - gnn_latent_dim
     - gpu_num
-    - epochs, lr, lr_gamma, size_coeff, ent_coeff = GNN optimizing parameters
+    - epochs, lr, size_coeff, ent_coeff = GNN optimizing parameters
         - for convenience, you can use **default_hyper_params
